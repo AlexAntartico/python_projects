@@ -37,4 +37,38 @@ Another common pitfall is not `properly propagating the return values`. This mea
 
 ## Recursion practice - easy
 
+Implement tehse recursive functions and remember:
 
+- First, identify the base case.
+- Then, test your functions with edge cases, empty imputs, 0, 1, single element, etc.
+- When stuck, write the logic for 2-3 small cases in a structured way to identify the pattern.
+
+1. Sum of digits
+Hint: Use modulo and integer division
+
+2. List element count
+Hint: Slice the list progressively
+
+3. Palindrome checker
+Hint: Compare first/last characters and reduce string
+
+4. Power function (x^n)
+Hint: x^n = x * x^(n-1)
+
+5. Fibonacci sequence
+Hint: fib(n) = fib(n-1) + fib(n-2)
+
+6. Greatest Common Divisor (GCD)
+Hint: Use Euclid's algorithm
+
+7. Binary search
+Hint: Split array and compare middle element
+
+8. Directory tree traversal
+Hint: Use os.listdir() and os.path.isdir()
+
+9. String reversal
+Hint: Take last character + reverse remaining
+
+10. Tower of Hanoi solver
+Hint: Move n-1 disks, then move largest disk
